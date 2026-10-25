@@ -24,7 +24,7 @@ export const pilots: Pilot[] = [
     title: "Taxonomy drift monitor",
     company: "enterpret",
     useCase: "UC-2",
-    demo: "Seven taxonomy changes in 24 months, found by comparing groupings rather than labels \\u2014 and \\u201cData & import\\u201d reads as a 43% jump in month 13 when the restated series shows it actually fell.",
+    demo: "Seven taxonomy changes in 24 months, found by comparing groupings rather than labels — and “Data & import” reads as a 43% jump in month 13 when the restated series shows it actually fell.",
     built: "2026-10-25",
     tier: "eval",
     load: () => import("@companies/enterpret/enterpret-taxonomy-drift/Pilot"),
